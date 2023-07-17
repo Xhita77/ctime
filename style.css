@@ -24,7 +24,14 @@ h1 {
     font-size: 80px;
     text-decoration: underline;
     box-shadow: 3px 6px 9px Blue;
-    padding: 20px 20px;
-    border-radius: 20px;
-    margin: 100px 300px;
 }
+
+@media (max-width: 600px) {
+
+  h1 {
+      font-size:20px;
+  }
+  .clock {
+    font-size: 36px;
+    margin-top: 100px;
+  }
